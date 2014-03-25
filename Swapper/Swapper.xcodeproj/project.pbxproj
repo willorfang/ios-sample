@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEF7220718E16FC7001F9467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7220618E16FC7001F9467 /* Foundation.framework */; };
+		AEF7220918E16FC7001F9467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7220818E16FC7001F9467 /* CoreGraphics.framework */; };
+		AEF7220B18E16FC7001F9467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7220A18E16FC7001F9467 /* UIKit.framework */; };
+		AEF7221118E16FC7001F9467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEF7220F18E16FC7001F9467 /* InfoPlist.strings */; };
+		AEF7221318E16FC7001F9467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF7221218E16FC7001F9467 /* main.m */; };
+		AEF7221718E16FC7001F9467 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF7221618E16FC7001F9467 /* AppDelegate.m */; };
+		AEF7221A18E16FC7001F9467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF7221818E16FC7001F9467 /* Main.storyboard */; };
+		AEF7221D18E16FC7001F9467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF7221C18E16FC7001F9467 /* ViewController.m */; };
+		AEF7221F18E16FC7001F9467 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF7221E18E16FC7001F9467 /* Images.xcassets */; };
+		AEF7222618E16FC7001F9467 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7222518E16FC7001F9467 /* XCTest.framework */; };
+		AEF7222718E16FC7001F9467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7220618E16FC7001F9467 /* Foundation.framework */; };
+		AEF7222818E16FC7001F9467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF7220A18E16FC7001F9467 /* UIKit.framework */; };
+		AEF7223018E16FC7001F9467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEF7222E18E16FC7001F9467 /* InfoPlist.strings */; };
+		AEF7223218E16FC7001F9467 /* SwapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF7223118E16FC7001F9467 /* SwapperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF7222918E16FC7001F9467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF721FB18E16FC7001F9467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF7220218E16FC7001F9467;
+			remoteInfo = Swapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEF7220318E16FC7001F9467 /* Swapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF7220618E16FC7001F9467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEF7220818E16FC7001F9467 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEF7220A18E16FC7001F9467 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEF7220E18E16FC7001F9467 /* Swapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swapper-Info.plist"; sourceTree = "<group>"; };
+		AEF7221018E16FC7001F9467 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEF7221218E16FC7001F9467 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEF7221418E16FC7001F9467 /* Swapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swapper-Prefix.pch"; sourceTree = "<group>"; };
+		AEF7221518E16FC7001F9467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEF7221618E16FC7001F9467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEF7221918E16FC7001F9467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF7221B18E16FC7001F9467 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEF7221C18E16FC7001F9467 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEF7221E18E16FC7001F9467 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEF7222418E16FC7001F9467 /* SwapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF7222518E16FC7001F9467 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AEF7222D18E16FC7001F9467 /* SwapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwapperTests-Info.plist"; sourceTree = "<group>"; };
+		AEF7222F18E16FC7001F9467 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEF7223118E16FC7001F9467 /* SwapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF7220018E16FC7001F9467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF7220918E16FC7001F9467 /* CoreGraphics.framework in Frameworks */,
+				AEF7220B18E16FC7001F9467 /* UIKit.framework in Frameworks */,
+				AEF7220718E16FC7001F9467 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF7222118E16FC7001F9467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF7222618E16FC7001F9467 /* XCTest.framework in Frameworks */,
+				AEF7222818E16FC7001F9467 /* UIKit.framework in Frameworks */,
+				AEF7222718E16FC7001F9467 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEF721FA18E16FC7001F9467 = {
+			isa = PBXGroup;
+			children = (
+				AEF7220C18E16FC7001F9467 /* Swapper */,
+				AEF7222B18E16FC7001F9467 /* SwapperTests */,
+				AEF7220518E16FC7001F9467 /* Frameworks */,
+				AEF7220418E16FC7001F9467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF7220418E16FC7001F9467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7220318E16FC7001F9467 /* Swapper.app */,
+				AEF7222418E16FC7001F9467 /* SwapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF7220518E16FC7001F9467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7220618E16FC7001F9467 /* Foundation.framework */,
+				AEF7220818E16FC7001F9467 /* CoreGraphics.framework */,
+				AEF7220A18E16FC7001F9467 /* UIKit.framework */,
+				AEF7222518E16FC7001F9467 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEF7220C18E16FC7001F9467 /* Swapper */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7221518E16FC7001F9467 /* AppDelegate.h */,
+				AEF7221618E16FC7001F9467 /* AppDelegate.m */,
+				AEF7221818E16FC7001F9467 /* Main.storyboard */,
+				AEF7221B18E16FC7001F9467 /* ViewController.h */,
+				AEF7221C18E16FC7001F9467 /* ViewController.m */,
+				AEF7221E18E16FC7001F9467 /* Images.xcassets */,
+				AEF7220D18E16FC7001F9467 /* Supporting Files */,
+			);
+			path = Swapper;
+			sourceTree = "<group>";
+		};
+		AEF7220D18E16FC7001F9467 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7220E18E16FC7001F9467 /* Swapper-Info.plist */,
+				AEF7220F18E16FC7001F9467 /* InfoPlist.strings */,
+				AEF7221218E16FC7001F9467 /* main.m */,
+				AEF7221418E16FC7001F9467 /* Swapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEF7222B18E16FC7001F9467 /* SwapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7223118E16FC7001F9467 /* SwapperTests.m */,
+				AEF7222C18E16FC7001F9467 /* Supporting Files */,
+			);
+			path = SwapperTests;
+			sourceTree = "<group>";
+		};
+		AEF7222C18E16FC7001F9467 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF7222D18E16FC7001F9467 /* SwapperTests-Info.plist */,
+				AEF7222E18E16FC7001F9467 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF7220218E16FC7001F9467 /* Swapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF7223518E16FC7001F9467 /* Build configuration list for PBXNativeTarget "Swapper" */;
+			buildPhases = (
+				AEF721FF18E16FC7001F9467 /* Sources */,
+				AEF7220018E16FC7001F9467 /* Frameworks */,
+				AEF7220118E16FC7001F9467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swapper;
+			productName = Swapper;
+			productReference = AEF7220318E16FC7001F9467 /* Swapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF7222318E16FC7001F9467 /* SwapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF7223818E16FC7001F9467 /* Build configuration list for PBXNativeTarget "SwapperTests" */;
+			buildPhases = (
+				AEF7222018E16FC7001F9467 /* Sources */,
+				AEF7222118E16FC7001F9467 /* Frameworks */,
+				AEF7222218E16FC7001F9467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF7222A18E16FC7001F9467 /* PBXTargetDependency */,
+			);
+			name = SwapperTests;
+			productName = SwapperTests;
+			productReference = AEF7222418E16FC7001F9467 /* SwapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF721FB18E16FC7001F9467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = willor_fang;
+				TargetAttributes = {
+					AEF7222318E16FC7001F9467 = {
+						TestTargetID = AEF7220218E16FC7001F9467;
+					};
+				};
+			};
+			buildConfigurationList = AEF721FE18E16FC7001F9467 /* Build configuration list for PBXProject "Swapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF721FA18E16FC7001F9467;
+			productRefGroup = AEF7220418E16FC7001F9467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF7220218E16FC7001F9467 /* Swapper */,
+				AEF7222318E16FC7001F9467 /* SwapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF7220118E16FC7001F9467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF7221F18E16FC7001F9467 /* Images.xcassets in Resources */,
+				AEF7221118E16FC7001F9467 /* InfoPlist.strings in Resources */,
+				AEF7221A18E16FC7001F9467 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF7222218E16FC7001F9467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF7223018E16FC7001F9467 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF721FF18E16FC7001F9467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF7221D18E16FC7001F9467 /* ViewController.m in Sources */,
+				AEF7221718E16FC7001F9467 /* AppDelegate.m in Sources */,
+				AEF7221318E16FC7001F9467 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF7222018E16FC7001F9467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF7223218E16FC7001F9467 /* SwapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF7222A18E16FC7001F9467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF7220218E16FC7001F9467 /* Swapper */;
+			targetProxy = AEF7222918E16FC7001F9467 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEF7220F18E16FC7001F9467 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF7221018E16FC7001F9467 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEF7221818E16FC7001F9467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF7221918E16FC7001F9467 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF7222E18E16FC7001F9467 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF7222F18E16FC7001F9467 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF7223318E16FC7001F9467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEF7223418E16FC7001F9467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF7223618E16FC7001F9467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swapper/Swapper-Prefix.pch";
+				INFOPLIST_FILE = "Swapper/Swapper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEF7223718E16FC7001F9467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swapper/Swapper-Prefix.pch";
+				INFOPLIST_FILE = "Swapper/Swapper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AEF7223918E16FC7001F9467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swapper.app/Swapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swapper/Swapper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwapperTests/SwapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AEF7223A18E16FC7001F9467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swapper.app/Swapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swapper/Swapper-Prefix.pch";
+				INFOPLIST_FILE = "SwapperTests/SwapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF721FE18E16FC7001F9467 /* Build configuration list for PBXProject "Swapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF7223318E16FC7001F9467 /* Debug */,
+				AEF7223418E16FC7001F9467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF7223518E16FC7001F9467 /* Build configuration list for PBXNativeTarget "Swapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF7223618E16FC7001F9467 /* Debug */,
+				AEF7223718E16FC7001F9467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEF7223818E16FC7001F9467 /* Build configuration list for PBXNativeTarget "SwapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF7223918E16FC7001F9467 /* Debug */,
+				AEF7223A18E16FC7001F9467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF721FB18E16FC7001F9467 /* Project object */;
+}
