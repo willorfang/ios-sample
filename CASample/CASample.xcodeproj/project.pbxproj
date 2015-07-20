@@ -15,6 +15,7 @@
 		AE7D9B211B5D3E7D0069CFF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE7D9B1F1B5D3E7D0069CFF2 /* LaunchScreen.xib */; };
 		AE7D9B2D1B5D3E7D0069CFF2 /* CASampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D9B2C1B5D3E7D0069CFF2 /* CASampleTests.m */; };
 		AE7D9B371B5D40F50069CFF2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7D9B361B5D40F50069CFF2 /* QuartzCore.framework */; };
+		AE7D9B471B5D51D70069CFF2 /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7D9B461B5D51D70069CFF2 /* baby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		AE7D9B2B1B5D3E7D0069CFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE7D9B2C1B5D3E7D0069CFF2 /* CASampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASampleTests.m; sourceTree = "<group>"; };
 		AE7D9B361B5D40F50069CFF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AE7D9B461B5D51D70069CFF2 /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		AE7D9B041B5D3E7D0069CFF2 = {
 			isa = PBXGroup;
 			children = (
+				AE7D9B451B5D51C80069CFF2 /* Resources */,
 				AE7D9B361B5D40F50069CFF2 /* QuartzCore.framework */,
 				AE7D9B0F1B5D3E7D0069CFF2 /* CASample */,
 				AE7D9B291B5D3E7D0069CFF2 /* CASampleTests */,
@@ -121,6 +124,14 @@
 				AE7D9B2B1B5D3E7D0069CFF2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE7D9B451B5D51C80069CFF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE7D9B461B5D51D70069CFF2 /* baby.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7D9B1C1B5D3E7D0069CFF2 /* Main.storyboard in Resources */,
+				AE7D9B471B5D51D70069CFF2 /* baby.png in Resources */,
 				AE7D9B211B5D3E7D0069CFF2 /* LaunchScreen.xib in Resources */,
 				AE7D9B1E1B5D3E7D0069CFF2 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +428,7 @@
 				AE7D9B321B5D3E7D0069CFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE7D9B331B5D3E7D0069CFF2 /* Build configuration list for PBXNativeTarget "CASampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				AE7D9B351B5D3E7D0069CFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

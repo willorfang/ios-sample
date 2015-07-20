@@ -23,7 +23,11 @@
     // create sublayer
     CALayer* blueLayer = [CALayer layer];
     blueLayer.frame = CGRectMake(50, 50, 100, 100);
-    blueLayer.backgroundColor = [UIColor blueColor].CGColor;
+    blueLayer.backgroundColor = [UIColor yellowColor].CGColor;
+    
+    UIImage* image = [UIImage imageNamed:@"baby.png"];
+    blueLayer.contents = (__bridge id)image.CGImage;
+    
     // add to root layer
     [self.layerView.layer addSublayer:blueLayer];
 }
