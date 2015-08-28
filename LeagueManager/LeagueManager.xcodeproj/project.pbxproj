@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA5E5C51B9001AA00EF4409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5C41B9001AA00EF4409 /* main.m */; };
+		AEA5E5C81B9001AA00EF4409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5C71B9001AA00EF4409 /* AppDelegate.m */; };
+		AEA5E5CB1B9001AA00EF4409 /* LeagueManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5C91B9001AA00EF4409 /* LeagueManager.xcdatamodeld */; };
+		AEA5E5CE1B9001AA00EF4409 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5CD1B9001AA00EF4409 /* MasterViewController.m */; };
+		AEA5E5D11B9001AA00EF4409 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5D01B9001AA00EF4409 /* DetailViewController.m */; };
+		AEA5E5D41B9001AA00EF4409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E5D21B9001AA00EF4409 /* Main.storyboard */; };
+		AEA5E5D61B9001AA00EF4409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E5D51B9001AA00EF4409 /* Images.xcassets */; };
+		AEA5E5D91B9001AA00EF4409 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E5D71B9001AA00EF4409 /* LaunchScreen.xib */; };
+		AEA5E5E51B9001AA00EF4409 /* LeagueManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5E41B9001AA00EF4409 /* LeagueManagerTests.m */; };
+		AEA5E5F01B9063C300EF4409 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5EF1B9063C300EF4409 /* TeamViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA5E5DF1B9001AA00EF4409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA5E5B71B9001AA00EF4409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA5E5BE1B9001AA00EF4409;
+			remoteInfo = LeagueManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEA5E5BF1B9001AA00EF4409 /* LeagueManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA5E5C31B9001AA00EF4409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA5E5C41B9001AA00EF4409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEA5E5C61B9001AA00EF4409 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEA5E5C71B9001AA00EF4409 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEA5E5CA1B9001AA00EF4409 /* LeagueManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeagueManager.xcdatamodel; sourceTree = "<group>"; };
+		AEA5E5CC1B9001AA00EF4409 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		AEA5E5CD1B9001AA00EF4409 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		AEA5E5CF1B9001AA00EF4409 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AEA5E5D01B9001AA00EF4409 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AEA5E5D31B9001AA00EF4409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEA5E5D51B9001AA00EF4409 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEA5E5D81B9001AA00EF4409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AEA5E5DE1B9001AA00EF4409 /* LeagueManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA5E5E31B9001AA00EF4409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA5E5E41B9001AA00EF4409 /* LeagueManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeagueManagerTests.m; sourceTree = "<group>"; };
+		AEA5E5EE1B9063C300EF4409 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		AEA5E5EF1B9063C300EF4409 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA5E5BC1B9001AA00EF4409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA5E5DB1B9001AA00EF4409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA5E5B61B9001AA00EF4409 = {
+			isa = PBXGroup;
+			children = (
+				AEA5E5C11B9001AA00EF4409 /* LeagueManager */,
+				AEA5E5E11B9001AA00EF4409 /* LeagueManagerTests */,
+				AEA5E5C01B9001AA00EF4409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA5E5C01B9001AA00EF4409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5E5BF1B9001AA00EF4409 /* LeagueManager.app */,
+				AEA5E5DE1B9001AA00EF4409 /* LeagueManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA5E5C11B9001AA00EF4409 /* LeagueManager */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5E5C61B9001AA00EF4409 /* AppDelegate.h */,
+				AEA5E5C71B9001AA00EF4409 /* AppDelegate.m */,
+				AEA5E5CC1B9001AA00EF4409 /* MasterViewController.h */,
+				AEA5E5CD1B9001AA00EF4409 /* MasterViewController.m */,
+				AEA5E5CF1B9001AA00EF4409 /* DetailViewController.h */,
+				AEA5E5D01B9001AA00EF4409 /* DetailViewController.m */,
+				AEA5E5D21B9001AA00EF4409 /* Main.storyboard */,
+				AEA5E5D51B9001AA00EF4409 /* Images.xcassets */,
+				AEA5E5D71B9001AA00EF4409 /* LaunchScreen.xib */,
+				AEA5E5C91B9001AA00EF4409 /* LeagueManager.xcdatamodeld */,
+				AEA5E5C21B9001AA00EF4409 /* Supporting Files */,
+				AEA5E5EE1B9063C300EF4409 /* TeamViewController.h */,
+				AEA5E5EF1B9063C300EF4409 /* TeamViewController.m */,
+			);
+			path = LeagueManager;
+			sourceTree = "<group>";
+		};
+		AEA5E5C21B9001AA00EF4409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5E5C31B9001AA00EF4409 /* Info.plist */,
+				AEA5E5C41B9001AA00EF4409 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEA5E5E11B9001AA00EF4409 /* LeagueManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5E5E41B9001AA00EF4409 /* LeagueManagerTests.m */,
+				AEA5E5E21B9001AA00EF4409 /* Supporting Files */,
+			);
+			path = LeagueManagerTests;
+			sourceTree = "<group>";
+		};
+		AEA5E5E21B9001AA00EF4409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5E5E31B9001AA00EF4409 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA5E5BE1B9001AA00EF4409 /* LeagueManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA5E5E81B9001AA00EF4409 /* Build configuration list for PBXNativeTarget "LeagueManager" */;
+			buildPhases = (
+				AEA5E5BB1B9001AA00EF4409 /* Sources */,
+				AEA5E5BC1B9001AA00EF4409 /* Frameworks */,
+				AEA5E5BD1B9001AA00EF4409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeagueManager;
+			productName = LeagueManager;
+			productReference = AEA5E5BF1B9001AA00EF4409 /* LeagueManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEA5E5DD1B9001AA00EF4409 /* LeagueManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA5E5EB1B9001AA00EF4409 /* Build configuration list for PBXNativeTarget "LeagueManagerTests" */;
+			buildPhases = (
+				AEA5E5DA1B9001AA00EF4409 /* Sources */,
+				AEA5E5DB1B9001AA00EF4409 /* Frameworks */,
+				AEA5E5DC1B9001AA00EF4409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA5E5E01B9001AA00EF4409 /* PBXTargetDependency */,
+			);
+			name = LeagueManagerTests;
+			productName = LeagueManagerTests;
+			productReference = AEA5E5DE1B9001AA00EF4409 /* LeagueManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA5E5B71B9001AA00EF4409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Wei Fang";
+				TargetAttributes = {
+					AEA5E5BE1B9001AA00EF4409 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					AEA5E5DD1B9001AA00EF4409 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = AEA5E5BE1B9001AA00EF4409;
+					};
+				};
+			};
+			buildConfigurationList = AEA5E5BA1B9001AA00EF4409 /* Build configuration list for PBXProject "LeagueManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA5E5B61B9001AA00EF4409;
+			productRefGroup = AEA5E5C01B9001AA00EF4409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA5E5BE1B9001AA00EF4409 /* LeagueManager */,
+				AEA5E5DD1B9001AA00EF4409 /* LeagueManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA5E5BD1B9001AA00EF4409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA5E5D41B9001AA00EF4409 /* Main.storyboard in Resources */,
+				AEA5E5D91B9001AA00EF4409 /* LaunchScreen.xib in Resources */,
+				AEA5E5D61B9001AA00EF4409 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA5E5DC1B9001AA00EF4409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA5E5BB1B9001AA00EF4409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA5E5D11B9001AA00EF4409 /* DetailViewController.m in Sources */,
+				AEA5E5F01B9063C300EF4409 /* TeamViewController.m in Sources */,
+				AEA5E5CE1B9001AA00EF4409 /* MasterViewController.m in Sources */,
+				AEA5E5C81B9001AA00EF4409 /* AppDelegate.m in Sources */,
+				AEA5E5C51B9001AA00EF4409 /* main.m in Sources */,
+				AEA5E5CB1B9001AA00EF4409 /* LeagueManager.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA5E5DA1B9001AA00EF4409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA5E5E51B9001AA00EF4409 /* LeagueManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEA5E5E01B9001AA00EF4409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA5E5BE1B9001AA00EF4409 /* LeagueManager */;
+			targetProxy = AEA5E5DF1B9001AA00EF4409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEA5E5D21B9001AA00EF4409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA5E5D31B9001AA00EF4409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEA5E5D71B9001AA00EF4409 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA5E5D81B9001AA00EF4409 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEA5E5E61B9001AA00EF4409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEA5E5E71B9001AA00EF4409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA5E5E91B9001AA00EF4409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeagueManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEA5E5EA1B9001AA00EF4409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeagueManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEA5E5EC1B9001AA00EF4409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeagueManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueManager.app/LeagueManager";
+			};
+			name = Debug;
+		};
+		AEA5E5ED1B9001AA00EF4409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeagueManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeagueManager.app/LeagueManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA5E5BA1B9001AA00EF4409 /* Build configuration list for PBXProject "LeagueManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA5E5E61B9001AA00EF4409 /* Debug */,
+				AEA5E5E71B9001AA00EF4409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA5E5E81B9001AA00EF4409 /* Build configuration list for PBXNativeTarget "LeagueManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA5E5E91B9001AA00EF4409 /* Debug */,
+				AEA5E5EA1B9001AA00EF4409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEA5E5EB1B9001AA00EF4409 /* Build configuration list for PBXNativeTarget "LeagueManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA5E5EC1B9001AA00EF4409 /* Debug */,
+				AEA5E5ED1B9001AA00EF4409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AEA5E5C91B9001AA00EF4409 /* LeagueManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AEA5E5CA1B9001AA00EF4409 /* LeagueManager.xcdatamodel */,
+			);
+			currentVersion = AEA5E5CA1B9001AA00EF4409 /* LeagueManager.xcdatamodel */;
+			path = LeagueManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEA5E5B71B9001AA00EF4409 /* Project object */;
+}
