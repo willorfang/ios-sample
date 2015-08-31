@@ -15,6 +15,7 @@
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 - (void)insertTeamWithName:(NSString *)name uniformColor:(NSString *)uniformColor;
+- (IBAction)showTeamView:(id)sender;
 
 @end
 

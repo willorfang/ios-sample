@@ -7,7 +7,8 @@
 //
 
 #import "MasterViewController.h"
-#import "DetailViewController.h"
+#import "TeamViewController.h"
+#import "PlayerListViewController.h"
 #import "AppDelegate.h"
 
 @interface MasterViewController ()
@@ -23,10 +24,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,11 +34,6 @@
 #pragma mark - Segues
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-        [[segue destinationViewController] setDetailItem:object];
-    }
 }
 
 #pragma mark - Table View
@@ -66,6 +58,12 @@
     return YES;
 }
 
+- (void)tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSManagedObject* team = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+    TeamViewController *teamViewController =[[TeamViewController alloc] initWithMasterController:self team:team];
+    [self presentViewController:teamViewController animated:YES completion:nil];
+}
+
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
@@ -85,6 +83,12 @@
     NSManagedObject *managedObject = [self.fetchedResultsController objectAtIndexPath:indexPath];
     cell.textLabel.text = [[managedObject valueForKey:@"name"] description];
     cell.detailTextLabel.text = [[managedObject valueForKey:@"uniformColor"] description];
+}
+
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
+    NSManagedObject *team = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    PlayerListViewController *playerListViewController = [[PlayerListViewController alloc] initWithMasterController:self team:team];
+    [self.navigationController pushViewController:playerListViewController animated:YES];
 }
 
 #pragma mark - Fetched results controller
@@ -199,6 +203,11 @@
     [newManagedObject setValue:uniformColor forKey:@"uniformColor"];
     // Save the context
     [(AppDelegate*)[[UIApplication sharedApplication] delegate] saveContext];
+}
+
+- (IBAction)showTeamView:(id)sender {
+    TeamViewController *teamViewController = [[TeamViewController alloc] initWithMasterController:self team:nil];
+    [self presentViewController:teamViewController animated:YES completion:nil];
 }
 
 @end

@@ -15,8 +15,8 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *nameTextEdit;
 @property (weak, nonatomic) IBOutlet UITextField *uniformColorTextEdit;
-@property (nonatomic, retain) NSManagedObject *team;
-@property (nonatomic, retain) MasterViewController *masterController;
+@property (nonatomic, strong) NSManagedObject *team;
+@property (nonatomic, strong) MasterViewController *masterController;
 
 - (id)initWithMasterController:(MasterViewController *)aMasterController team:  (NSManagedObject *)aTeam;
 - (IBAction)cancel:(id)sender;

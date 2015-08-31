@@ -11,12 +11,12 @@
 		AEA5E5C81B9001AA00EF4409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5C71B9001AA00EF4409 /* AppDelegate.m */; };
 		AEA5E5CB1B9001AA00EF4409 /* LeagueManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5C91B9001AA00EF4409 /* LeagueManager.xcdatamodeld */; };
 		AEA5E5CE1B9001AA00EF4409 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5CD1B9001AA00EF4409 /* MasterViewController.m */; };
-		AEA5E5D11B9001AA00EF4409 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5D01B9001AA00EF4409 /* DetailViewController.m */; };
-		AEA5E5D41B9001AA00EF4409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E5D21B9001AA00EF4409 /* Main.storyboard */; };
 		AEA5E5D61B9001AA00EF4409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E5D51B9001AA00EF4409 /* Images.xcassets */; };
 		AEA5E5D91B9001AA00EF4409 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E5D71B9001AA00EF4409 /* LaunchScreen.xib */; };
 		AEA5E5E51B9001AA00EF4409 /* LeagueManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5E41B9001AA00EF4409 /* LeagueManagerTests.m */; };
 		AEA5E5F01B9063C300EF4409 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5EF1B9063C300EF4409 /* TeamViewController.m */; };
+		AEA5E5F31B93EE7400EF4409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E5F11B93EE7400EF4409 /* Main.storyboard */; };
+		AEA5E5F61B94212400EF4409 /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5F51B94212400EF4409 /* PlayerListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,6 @@
 		AEA5E5CA1B9001AA00EF4409 /* LeagueManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeagueManager.xcdatamodel; sourceTree = "<group>"; };
 		AEA5E5CC1B9001AA00EF4409 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		AEA5E5CD1B9001AA00EF4409 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		AEA5E5CF1B9001AA00EF4409 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		AEA5E5D01B9001AA00EF4409 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		AEA5E5D31B9001AA00EF4409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEA5E5D51B9001AA00EF4409 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AEA5E5D81B9001AA00EF4409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AEA5E5DE1B9001AA00EF4409 /* LeagueManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +45,9 @@
 		AEA5E5E41B9001AA00EF4409 /* LeagueManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeagueManagerTests.m; sourceTree = "<group>"; };
 		AEA5E5EE1B9063C300EF4409 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
 		AEA5E5EF1B9063C300EF4409 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		AEA5E5F21B93EE7400EF4409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEA5E5F41B94212400EF4409 /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
+		AEA5E5F51B94212400EF4409 /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,15 +93,15 @@
 				AEA5E5C71B9001AA00EF4409 /* AppDelegate.m */,
 				AEA5E5CC1B9001AA00EF4409 /* MasterViewController.h */,
 				AEA5E5CD1B9001AA00EF4409 /* MasterViewController.m */,
-				AEA5E5CF1B9001AA00EF4409 /* DetailViewController.h */,
-				AEA5E5D01B9001AA00EF4409 /* DetailViewController.m */,
-				AEA5E5D21B9001AA00EF4409 /* Main.storyboard */,
+				AEA5E5EE1B9063C300EF4409 /* TeamViewController.h */,
+				AEA5E5EF1B9063C300EF4409 /* TeamViewController.m */,
+				AEA5E5F41B94212400EF4409 /* PlayerListViewController.h */,
+				AEA5E5F51B94212400EF4409 /* PlayerListViewController.m */,
+				AEA5E5F11B93EE7400EF4409 /* Main.storyboard */,
 				AEA5E5D51B9001AA00EF4409 /* Images.xcassets */,
 				AEA5E5D71B9001AA00EF4409 /* LaunchScreen.xib */,
 				AEA5E5C91B9001AA00EF4409 /* LeagueManager.xcdatamodeld */,
 				AEA5E5C21B9001AA00EF4409 /* Supporting Files */,
-				AEA5E5EE1B9063C300EF4409 /* TeamViewController.h */,
-				AEA5E5EF1B9063C300EF4409 /* TeamViewController.m */,
 			);
 			path = LeagueManager;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA5E5D41B9001AA00EF4409 /* Main.storyboard in Resources */,
+				AEA5E5F31B93EE7400EF4409 /* Main.storyboard in Resources */,
 				AEA5E5D91B9001AA00EF4409 /* LaunchScreen.xib in Resources */,
 				AEA5E5D61B9001AA00EF4409 /* Images.xcassets in Resources */,
 			);
@@ -232,12 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA5E5D11B9001AA00EF4409 /* DetailViewController.m in Sources */,
 				AEA5E5F01B9063C300EF4409 /* TeamViewController.m in Sources */,
 				AEA5E5CE1B9001AA00EF4409 /* MasterViewController.m in Sources */,
 				AEA5E5C81B9001AA00EF4409 /* AppDelegate.m in Sources */,
 				AEA5E5C51B9001AA00EF4409 /* main.m in Sources */,
 				AEA5E5CB1B9001AA00EF4409 /* LeagueManager.xcdatamodeld in Sources */,
+				AEA5E5F61B94212400EF4409 /* PlayerListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,20 +260,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AEA5E5D21B9001AA00EF4409 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEA5E5D31B9001AA00EF4409 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AEA5E5D71B9001AA00EF4409 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AEA5E5D81B9001AA00EF4409 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		AEA5E5F11B93EE7400EF4409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA5E5F21B93EE7400EF4409 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -41,7 +41,8 @@
 */
 
 - (id)initWithMasterController:(MasterViewController *)aMasterController team: (NSManagedObject *)aTeam {
-    if ((self = [super init]))
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    if ((self = [storyboard instantiateViewControllerWithIdentifier:@"TeamViewController"]))
     {
         _masterController = aMasterController;
         _team = aTeam;
