@@ -17,6 +17,7 @@
 		AEA5E5F01B9063C300EF4409 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5EF1B9063C300EF4409 /* TeamViewController.m */; };
 		AEA5E5F31B93EE7400EF4409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E5F11B93EE7400EF4409 /* Main.storyboard */; };
 		AEA5E5F61B94212400EF4409 /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5E5F51B94212400EF4409 /* PlayerListViewController.m */; };
+		AEF64F241B9ECD1400D2EC86 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF64F231B9ECD1400D2EC86 /* PlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		AEA5E5F21B93EE7400EF4409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEA5E5F41B94212400EF4409 /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
 		AEA5E5F51B94212400EF4409 /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
+		AEF64F221B9ECD1400D2EC86 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		AEF64F231B9ECD1400D2EC86 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				AEA5E5D71B9001AA00EF4409 /* LaunchScreen.xib */,
 				AEA5E5C91B9001AA00EF4409 /* LeagueManager.xcdatamodeld */,
 				AEA5E5C21B9001AA00EF4409 /* Supporting Files */,
+				AEF64F221B9ECD1400D2EC86 /* PlayerViewController.h */,
+				AEF64F231B9ECD1400D2EC86 /* PlayerViewController.m */,
 			);
 			path = LeagueManager;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF64F241B9ECD1400D2EC86 /* PlayerViewController.m in Sources */,
 				AEA5E5F01B9063C300EF4409 /* TeamViewController.m in Sources */,
 				AEA5E5CE1B9001AA00EF4409 /* MasterViewController.m in Sources */,
 				AEA5E5C81B9001AA00EF4409 /* AppDelegate.m in Sources */,
@@ -428,6 +434,7 @@
 				AEA5E5EA1B9001AA00EF4409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEA5E5EB1B9001AA00EF4409 /* Build configuration list for PBXNativeTarget "LeagueManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				AEA5E5ED1B9001AA00EF4409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

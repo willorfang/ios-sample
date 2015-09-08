@@ -17,7 +17,7 @@
 @property (nonatomic, strong) MasterViewController *masterController;
 
 - (id)initWithMasterController:(MasterViewController*)aMasterController team:(NSManagedObject *)aTeam;
-- (void)showPlayerView;
+- (IBAction)showPlayerView:(id)sender;
 
 - (NSArray *)sortPlayers;
 

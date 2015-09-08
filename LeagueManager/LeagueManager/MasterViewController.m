@@ -205,6 +205,25 @@
     [(AppDelegate*)[[UIApplication sharedApplication] delegate] saveContext];
 }
 
+- (void)insertPlayerWithTeam:(NSManagedObject *)team firstName:(NSString *)firstName lastName:(NSString *)lastName email:(NSString *)email {
+    // Create the player
+    NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
+    NSManagedObject *player = [NSEntityDescription insertNewObjectForEntityForName:@"Player" inManagedObjectContext:context];
+    [player setValue:firstName forKey:@"firstName"];
+    [player setValue:lastName forKey:@"lastName"];
+    [player setValue:email forKey:@"email"];
+    [player setValue:team forKey:@"team"];
+    // Save the context.
+    [(AppDelegate*)[[UIApplication sharedApplication] delegate] saveContext];
+}
+
+- (void)deletePlayer:(NSManagedObject *)player {
+    NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
+    [context deleteObject:player];
+    // Save the context.
+    [(AppDelegate*)[[UIApplication sharedApplication] delegate] saveContext];
+}
+
 - (IBAction)showTeamView:(id)sender {
     TeamViewController *teamViewController = [[TeamViewController alloc] initWithMasterController:self team:nil];
     [self presentViewController:teamViewController animated:YES completion:nil];

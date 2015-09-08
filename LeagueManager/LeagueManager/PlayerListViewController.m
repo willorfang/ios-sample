@@ -8,6 +8,7 @@
 
 #import "PlayerListViewController.h"
 #import "MasterViewController.h"
+#import "PlayerViewController.h"
 
 @interface PlayerListViewController ()
 
@@ -45,6 +46,11 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSManagedObject *player = [[self sortPlayers] objectAtIndex:indexPath.row];
+    PlayerViewController *playerViewController = [[PlayerViewController alloc] initWithMasterController:self.masterController team:self.team player:player];
+    [self presentViewController:playerViewController animated:YES completion:nil];
+}
 
 /*
 #pragma mark - Navigation
@@ -66,8 +72,9 @@
     return self;
 }
 
-- (void)showPlayerView {
-    
+- (IBAction)showPlayerView:(id)sender {
+    PlayerViewController *playerViewController = [[PlayerViewController alloc] initWithMasterController:self.masterController team:self.team player:nil];
+    [self presentViewController:playerViewController animated:YES completion:nil];
 }
 
 - (NSArray *)sortPlayers {
